@@ -1,7 +1,8 @@
 function changeContext(func, obj) {
-  // Your code here
-}
+  obj.func = func;
+  return (obj.func())
 
+}
 /*****************************************************************************/
 /***************** DO NOT MODIFY ANYTHING UNDER THIS LINE ********************/
 

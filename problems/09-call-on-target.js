@@ -1,5 +1,7 @@
 function callOnTarget(func, obj1, obj2) {
-  // Your code here
+  obj1.func = func
+
+  return obj1.func(obj2)
 }
 
 

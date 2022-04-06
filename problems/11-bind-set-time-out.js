@@ -1,5 +1,6 @@
 function boundFuncTimer(obj, func, delay) {
-  // Your code here
+  obj.func = func
+  setTimeout(func.bind(obj), delay)
 }
 
 /*****************************************************************************/

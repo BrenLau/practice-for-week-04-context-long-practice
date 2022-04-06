@@ -1,5 +1,7 @@
 function allTheArgs(func, ...args) {
-  // Your code here
+  console.log(func.apply(func, args))
+  let hello = func.apply(func, args)
+  return hello
 }
 
 /*****************************************************************************/
